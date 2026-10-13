@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us | Ethereal Radiance</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="wrapper">
+    <!-- Navbar -->
+    <nav>
+      <a href="index.html" class="brand">
+        <div class="brand-icon">✦</div>
+        <div class="brand-title">ETHEREAL RADIANCE</div>
+      </a>
+
+      <div class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="aotr.html" class="nav-link">AOT:R</a>
+        <a href="bloxfruits.html" class="nav-link">Blox Fruits</a>
+        <a href="slayer2.html" class="nav-link">Slayers 2</a>
+        <a href="about.html" class="nav-link active">About Us</a>
+      </div>
+
+      <a href="https://discord.gg/2vvDxJYGn" target="_blank" class="nav-cta">JOIN DISCORD</a>
+    </nav>
+
+    <!-- Bento Hero -->
+    <div class="hero-bento">
+      <div class="card hero-content">
+        <div class="hero-tag"><span></span> The Brotherhood & Legacy</div>
+        <h1 class="hero-title">About Ethereal Radiance</h1>
+        <p class="hero-desc">
+          Born from competitive passion and refined into a modern gaming sanctuary, Ethereal Radiance brings together top-tier players across Roblox's most challenging battlegrounds. We focus on brotherhood, fair trading, and unyielding dominance.
+        </p>
+
+        <div class="btn-row">
+          <button class="btn-primary" onclick="openModal('aboutRulesModal')">Read Server Guidelines</button>
+          <a href="https://discord.gg/2vvDxJYGn" target="_blank" class="btn-glass">Join Discord</a>
+        </div>
+      </div>
+
+      <div class="card hero-visual">
+        <img src="bg.jpg" alt="Ethereal Radiance Realm" class="hero-img">
+        <div class="hero-gradient"></div>
+        <div class="visual-footer">
+          <div>
+            <div class="visual-badge-title">Ethereal Radiance</div>
+            <div class="visual-badge-sub">Established & Unified Sanctuary</div>
+          </div>
+          <span style="font-size: 0.78rem; font-weight: 600; color: #a4b0c6;">EST. 2024</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3 Bottom Cards -->
+    <div class="bottom-bento">
+      <div class="card feature-card">
+        <div class="feature-head">
+          <span style="font-size: 1.4rem;">🏛️</span>
+          <span class="feature-badge">CORE PILLARS</span>
+        </div>
+        <h3 class="feature-title">Integrity & Respect</h3>
+        <p class="feature-desc">Zero tolerance for toxicity or cheating. We prioritize a mature, well-moderated space where both casuals and pros thrive together.</p>
+      </div>
+
+      <div class="card feature-card">
+        <div class="feature-head">
+          <span style="font-size: 1.4rem;">🎁</span>
+          <span class="feature-badge">COMMUNITY PERKS</span>
+        </div>
+        <h3 class="feature-title">Exclusive Rewards</h3>
+        <p class="feature-desc">Frequent server events, Robux and in-game passes giveaways, and dedicated custom roles for our most loyal guild veterans.</p>
+      </div>
+
+      <div class="card feature-card">
+        <div class="feature-head">
+          <span style="font-size: 1.4rem;">🛠️</span>
+          <span class="feature-badge">DEVELOPMENT</span>
+        </div>
+        <h3 class="feature-title">Custom Infrastructure</h3>
+        <p class="feature-desc">Custom-engineered web tools, verified middleman protocols, and automated raid scheduling maintained in-house by our dev team.</p>
+      </div>
+    </div>
+
+    <!-- Leadership Row -->
+    <div class="staff-row">
+      <div class="card staff-box">
+        <div class="staff-info">
+          <div class="staff-role">Guild Founder / Owner</div>
+          <div class="staff-name">Misty | Mist Hashira</div>
+        </div>
+        <div class="staff-avatar">👑</div>
+      </div>
+
+      <div class="card staff-box">
+        <div class="staff-info">
+          <div class="staff-role">Head Staff / Web Developer</div>
+          <div class="staff-name">Mikey</div>
+        </div>
+        <div class="staff-avatar">💻</div>
+      </div>
+    </div>
+
+    <footer>
+      <p>© 2026 Ethereal Radiance. All rights reserved.</p>
+      <p style="margin-top: 6px;">Engineered with precision by <strong>Mikey's Studio</strong></p>
+    </footer>
+  </div>
+
+  <!-- About Guidelines Modal -->
+  <div class="modal-overlay" id="aboutRulesModal">
+    <div class="modal-box">
+      <div class="modal-header">
+        <div class="modal-title">Sanctuary Guidelines</div>
+        <button class="modal-close" onclick="closeModal('aboutRulesModal')">&times;</button>
+      </div>
+
+      <div class="rule-sec">
+        <div class="rule-title">Conduct & Community</div>
+        <ul class="rule-list">
+          <li><span>»</span> Treat all guild members with dignity and respect.[span_7](start_span)[span_7](end_span)</li>
+          <li><span>»</span> No drama, harassment, or offensive discussions.[span_8](start_span)[span_8](end_span)</li>
+          <li><span>»</span> Follow Discord Terms of Service and staff decisions.[span_9](start_span)[span_9](end_span)</li>
+        </ul>
+      </div>
+
+      <div class="rule-sec">
+        <div class="rule-title">Violations & Disciplinary Action</div>
+        <ul class="rule-list">
+          <li><span>»</span> Minor violations may result in warnings.</li>
+          <li><span>»</span> Repeated violations may result in timeouts or kicks.</li>
+          <li><span>»</span> Serious violations (scamming/exploits) will result in permanent bans.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function openModal(id) { document.getElementById(id).classList.add('active'); }
+    function closeModal(id) { document.getElementById(id).classList.remove('active'); }
+    window.onclick = function(e) {
+      if (e.target.classList.contains('modal-overlay')) {
+        closeModal('aboutRulesModal');
+      }
+    };
+  </script>
+</body>
+</html>

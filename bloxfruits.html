@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blox Fruits | Ethereal Radiance</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="wrapper">
+    <!-- Navbar -->
+    <nav>
+      <a href="index.html" class="brand">
+        <div class="brand-icon">✦</div>
+        <div class="brand-title">ETHEREAL RADIANCE</div>
+      </a>
+
+      <div class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="aotr.html" class="nav-link">AOT:R</a>
+        <a href="bloxfruits.html" class="nav-link active">Blox Fruits</a>
+        <a href="slayer2.html" class="nav-link">Slayers 2</a>
+        <a href="about.html" class="nav-link">About Us</a>
+      </div>
+
+      <a href="https://discord.gg/" target="_blank" class="nav-cta">JOIN DISCORD</a>
+    </nav>
+
+    <!-- Bento Hero -->
+    <div class="hero-bento">
+      <div class="card hero-content">
+        <div class="hero-tag"><span></span> Grand Fleet Division</div>
+        <h1 class="hero-title">Blox Fruits Arena</h1>
+        <p class="hero-desc">
+          Conquer the Third Sea, master awakened fruits, and trade mythical physicals and perms. Access live real-time fruit valuations, official community announcements, and synchronized Leviathan hunting squads.
+        </p>
+
+        <div class="btn-row">
+          <a href="https://discord.gg/bloxfruits" target="_blank" class="btn-primary">Official Blox DC</a>
+          <button class="btn-glass" onclick="openModal('bfRulesModal')">Division Rules</button>
+          <a href="https://bloxfruitsvalues.com/" target="_blank" class="btn-glass">Fruit Values</a>
+        </div>
+      </div>
+
+      <div class="card hero-visual">
+        <img src="bfs.jpg" alt="Blox Fruits Division" class="hero-img">
+        <div class="hero-gradient"></div>
+        <div class="visual-footer">
+          <div>
+            <div class="visual-badge-title">Blox Fruits Division</div>
+            <div class="visual-badge-sub">High Seas & Trade Armada</div>
+          </div>
+          <span style="font-size: 0.78rem; font-weight: 600; color: #a4b0c6;">ACTIVE HUB</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3 Bottom Cards -->
+    <div class="bottom-bento">
+      <div class="card feature-card">
+        <div class="feature-head">
+          <span style="font-size: 1.4rem;">🍇</span>
+          <span class="feature-badge">MARKET & TRADING</span>
+        </div>
+        <h3 class="feature-title">Perm & Physical Trades</h3>
+        <p class="feature-desc">Accurate overpay/underpay checks powered by verified market values. Dedicated channels for Kitsune, Dragon, and Gamepass trades.</p>
+      </div>
+
+      <div class="card feature-card">
+        <div class="feature-head">
+          <span style="font-size: 1.4rem;">🌊</span>
+          <span class="feature-badge">SEA EVENTS</span>
+        </div>
+        <h3 class="feature-title">Leviathan & Mirage Hunts</h3>
+        <p class="feature-desc">Coordinated ship parties for Terror Shark hunting, Kitsune Island mirage mirrors, and Sea Beast farming with guild navigators.</p>
+      </div>
+
+      <div class="card feature-card">
+        <div class="feature-head">
+          <span style="font-size: 1.4rem;">⚡</span>
+          <span class="feature-badge">RAIDS & AWAKENINGS</span>
+        </div>
+        <h3 class="feature-title">Full Raid Carries</h3>
+        <p class="feature-desc">Free Buddha and Dough raid carries hosted daily by max-level guild members to help you max out awakening moves easily.</p>
+      </div>
+    </div>
+
+    <!-- Leadership Row -->
+    <div class="staff-row">
+      <div class="card staff-box">
+        <div class="staff-info">
+          <div class="staff-role">Guild Founder / Owner</div>
+          <div class="staff-name">Misty | Mist Hashira</div>
+        </div>
+        <div class="staff-avatar">👑</div>
+      </div>
+
+      <div class="card staff-box">
+        <div class="staff-info">
+          <div class="staff-role">Head Staff / Web Developer</div>
+          <div class="staff-name">Mikey</div>
+        </div>
+        <div class="staff-avatar">💻</div>
+      </div>
+    </div>
+
+    <footer>
+      <p>© 2026 Ethereal Radiance. All rights reserved.</p>
+      <p style="margin-top: 6px;">Engineered with precision by <strong>Mikey's Studio</strong></p>
+    </footer>
+  </div>
+
+  <!-- Blox Fruits Rules Modal -->
+  <div class="modal-overlay" id="bfRulesModal">
+    <div class="modal-box">
+      <div class="modal-header">
+        <div class="modal-title">Blox Fruits Rules</div>
+        <button class="modal-close" onclick="closeModal('bfRulesModal')">&times;</button>
+      </div>
+
+      <div class="rule-sec">
+        <div class="rule-title">Trading & Market Safety</div>
+        <ul class="rule-list">
+          <li><span>»</span> Black market trading and unauthorized services are forbidden.</li>
+          <li><span>»</span> Scamming or using fake proofs, false values, or misleading offers is prohibited.</li>
+          <li><span>»</span> Complete all agreed trades honestly and transparently.</li>
+        </ul>
+      </div>
+
+      <div class="rule-sec">
+        <div class="rule-title">No Exploiting & Cheating</div>
+        <ul class="rule-list">
+          <li><span>»</span> Do not advertise hacks, cheats, or malicious scripts.</li>
+          <li><span>»</span> Do not promote exploit-related auto-farming services.</li>
+          <li><span>»</span> Strictly follow official Roblox and Blox Fruits policies.</li>
+        </ul>
+      </div>
+
+      <div class="rule-sec">
+        <div class="rule-title">Account Safety & Privacy</div>
+        <ul class="rule-list">
+          <li><span>»</span> Do not buy, sell, or share Roblox accounts.</li>
+          <li><span>»</span> Never share passwords or login credentials.</li>
+          <li><span>»</span> Report suspicious offers and scams directly to server staff.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function openModal(id) { document.getElementById(id).classList.add('active'); }
+    function closeModal(id) { document.getElementById(id).classList.remove('active'); }
+    window.onclick = function(e) {
+      if (e.target.classList.contains('modal-overlay')) {
+        closeModal('bfRulesModal');
+      }
+    };
+  </script>
+</body>
+</html>

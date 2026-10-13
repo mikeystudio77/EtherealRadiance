@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AOT: Revolution | Ethereal Radiance</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="wrapper">
+    <!-- Navbar -->
+    <nav>
+      <a href="index.html" class="brand">
+        <div class="brand-icon">✦</div>
+        <div class="brand-title">ETHEREAL RADIANCE</div>
+      </a>
+
+      <div class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="aotr.html" class="nav-link active">AOT:R</a>
+        <a href="bloxfruits.html" class="nav-link">Blox Fruits</a>
+        <a href="slayer2.html" class="nav-link">Slayers 2</a>
+        <a href="about.html" class="nav-link">About Us</a>
+      </div>
+
+      <a href="https://discord.gg/" target="_blank" class="nav-cta">JOIN DISCORD</a>
+    </nav>
+
+    <!-- Bento Hero -->
+    <div class="hero-bento">
+      <div class="card hero-content">
+        <div class="hero-tag"><span></span> Survey Corps Vanguard</div>
+        <h1 class="hero-title">Attack on Titan: R</h1>
+        <p class="hero-desc">
+          Master the omni-directional mobility gear, equip legendary artifacts, and conquer high-tier Shifter raids. Access verified trade values, official patch updates, and coordinated guild parties.
+        </p>
+
+        <div class="btn-row">
+          <a href="https://discord.gg/aotrevolution" target="_blank" class="btn-primary">Official AOT:R DC</a>
+          <button class="btn-glass" onclick="openModal('aotrRulesModal')">Division Rules</button>
+          <a href="https://aotrevolution.com/changes" target="_blank" class="btn-glass">Live Changes</a>
+        </div>
+      </div>
+
+      <div class="card hero-visual">
+        <img src="aotr.jpg" alt="AOT:R Division" class="hero-img">
+        <div class="hero-gradient"></div>
+        <div class="visual-footer">
+          <div>
+            <div class="visual-badge-title">Attack on Titan: Revolution</div>
+            <div class="visual-badge-sub">Ethereal Vanguard Sector</div>
+          </div>
+          <span style="font-size: 0.78rem; font-weight: 600; color: #a4b0c6;">ACTIVE HUB</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3 Bottom Cards -->
+    <div class="bottom-bento">
+      <div class="card feature-card">
+        <div class="feature-head">
+          <span style="font-size: 1.4rem;">⚡</span>
+          <span class="feature-badge">BUILDS & GEAR</span>
+        </div>
+        <h3 class="feature-title">Raid Metas & Perks</h3>
+        <p class="feature-desc">Optimized loadouts for Thunder Spears, Adaptation perks, ODM damage boosts, and family synergies (Yeager, Ackerman, Reiss).</p>
+      </div>
+
+      <div class="card feature-card">
+        <div class="feature-head">
+          <span style="font-size: 1.4rem;">⚖️</span>
+          <span class="feature-badge">MARKET</span>
+        </div>
+        <h3 class="feature-title">Safe Trading Rules</h3>
+        <p class="feature-desc">All high-tier artifact trades (Annie's Ring, Founder keys) must follow division guidelines with verified middlemen.</p>
+      </div>
+
+      <div class="card feature-card">
+        <div class="feature-head">
+          <span style="font-size: 1.4rem;">🎯</span>
+          <span class="feature-badge">CO-OP</span>
+        </div>
+        <h3 class="feature-title">Shifter Raid Parties</h3>
+        <p class="feature-desc">Matchmaking channels to run Colossal, Armored, and Female Titan raids with experienced Guild carries 24/7.</p>
+      </div>
+    </div>
+
+    <!-- Leadership Row -->
+    <div class="staff-row">
+      <div class="card staff-box">
+        <div class="staff-info">
+          <div class="staff-role">Guild Founder / Owner</div>
+          <div class="staff-name">Misty | Mist Hashira</div>
+        </div>
+        <div class="staff-avatar">👑</div>
+      </div>
+
+      <div class="card staff-box">
+        <div class="staff-info">
+          <div class="staff-role">Head Staff / Web Developer</div>
+          <div class="staff-name">Mikey</div>
+        </div>
+        <div class="staff-avatar">💻</div>
+      </div>
+    </div>
+
+    <footer>
+      <p>© 2026 Ethereal Radiance. All rights reserved.</p>
+      <p style="margin-top: 6px;">Engineered with precision by <strong>Mikey's Studio</strong></p>
+    </footer>
+  </div>
+
+  <!-- AOT:R Rules Modal -->
+  <div class="modal-overlay" id="aotrRulesModal">
+    <div class="modal-box">
+      <div class="modal-header">
+        <div class="modal-title">AOT:R Division Rules</div>
+        <button class="modal-close" onclick="closeModal('aotrRulesModal')">&times;</button>
+      </div>
+
+      <div class="rule-sec">
+        <div class="rule-title">No Black Marketing or Cross Trading</div>
+        <ul class="rule-list">
+          <li><span>»</span> Black market trading and prohibited transactions are not allowed.</li>
+          <li><span>»</span> Do not buy, sell, or advertise prohibited items or services.</li>
+          <li><span>»</span> Report suspicious trading activity to staff immediately.</li>
+        </ul>
+      </div>
+
+      <div class="rule-sec">
+        <div class="rule-title">No Scamming</div>
+        <ul class="rule-list">
+          <li><span>»</span> Scamming or attempting to scam members is strictly prohibited.</li>
+          <li><span>»</span> Do not use fake proofs, false prices, or misleading offers.</li>
+          <li><span>»</span> Complete agreed trades honestly and transparently.</li>
+        </ul>
+      </div>
+
+      <div class="rule-sec">
+        <div class="rule-title">No Exploiting & Account Safety</div>
+        <ul class="rule-list">
+          <li><span>»</span> Do not advertise cheats or malicious exploits.</li>
+          <li><span>»</span> Do not sell or promote exploit-related services.</li>
+          <li><span>»</span> Follow applicable Roblox and AoTR official rules.</li>
+          <li><span>»</span> Do not buy, sell, or share accounts if prohibited by rules.</li>
+          <li><span>»</span> Never request another member's password or login details.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function openModal(id) { document.getElementById(id).classList.add('active'); }
+    function closeModal(id) { document.getElementById(id).classList.remove('active'); }
+    window.onclick = function(e) {
+      if (e.target.classList.contains('modal-overlay')) {
+        closeModal('aotrRulesModal');
+      }
+    };
+  </script>
+</body>
+</html>
